@@ -1,5 +1,0 @@
-[12-Jul-2021 12:58:06 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 35: OpenSSL SSL_connect: Connection reset by peer in connection to api.printful.com:443  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.printful.com/shipping/rates in /home1/start6zs/public_html/test/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
-Stack trace:
-#0 /home1/start6zs/public_html/test/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
-#1 /home1/start6zs/public_html/test/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
-#2 /home1/start6zs/public_html/test/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(Guz in /home1/start6zs/public_html/test/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
