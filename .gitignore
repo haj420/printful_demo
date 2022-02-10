@@ -1,2 +1,5 @@
 composer.phar
 /vendor/
+vendor/
+error_log
+.error_log
