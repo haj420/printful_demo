@@ -1,3 +1,4 @@
+# removing unnecissary composer files
 composer.phar
 /vendor/
 vendor/
